@@ -1,4 +1,8 @@
- - name: Insert test Page
-    template:
-      src: test.html
-      dest: /var/lib/awx/projects/
+---
+- name: Hello World!
+  hosts: all
+ 
+  tasks:
+ 
+  - name: Hello World!
+    shell: echo "Hi! Tower is working."
