@@ -1,0 +1,5 @@
+---
+- name: Insert test Page
+    template:
+      src: test.html
+      dest: /var/lib/awx/projects/
